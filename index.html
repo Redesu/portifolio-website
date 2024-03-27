@@ -5,7 +5,10 @@
 <!--- Use https://blog.hubspot.com/?hubs_content=blog.hubspot.com%2Fwebsite%2Fwebsite-footer&hubs_content-cta=HubSpot%E2%80%99s%20blog%20homepage as a reference for footer-->
 
 <head>
+    <title>Portifolio</title>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -15,10 +18,10 @@
 <body>
     <nav>
         <ul class="navigation-bar">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="navigation-item"><a href="#about">About</a></li>
+            <li class="navigation-item"><a href="#projects">Projects</a></li>
+            <li class="navigation-item"><a href="#skills">Skills</a></li>
+            <li class="navigation-item"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -32,19 +35,25 @@
 
         <section id="projects">
             <h2>Projects</h2>
-            <details class="project">
+            <details class="project teacozy">
+                <summary class="project-title">
                 <h3>Tea-Cozy</h3>
-                <img src="" alt="" \>
+            </summary>
+            <img id="teaCozyImage" src="./Images/Screenshot 2024-03-27 163411.png" alt="Tea Cozy" style="display: none;">
             </details>
 
-            <details class="project">
+            <details class="project website">
+                <summary class="project-title">
                 <h3>website-design-system</h3>
-                <img src="" alt="" \>
+            </summary>
+            <img id="websiteImg" src="./Images/Screenshot 2024-03-27 174458.png" alt="website design system" style="display: none;">
             </details>
 
             <details class="project">
+                <summary class="project-title commonCss">
                 <h3>common-css-properties</h3>
-                <img src="" alt="" \>
+            </summary>
+            <img id="commonImg" src="./Images/Screenshot 2024-03-27 174425.png" alt="project title" style="display: none;">
             </details>
 
             <script src="script.js"></script>
@@ -52,27 +61,19 @@
 
         <section id="skills">
             <h2>Skills</h2>
-            <i href="https://wikipedia.org/wiki/HTML5" class="fab fa-html5">dsadsa</i>
-            <i href="https://wikipedia.org/wiki/CSS3" class="fab fa-css3-alt"></i>
-            <i href="" class="fab fa-js"></i>
-            <i href="" class="fab fa-git"></i>
-            <i href="" class="fas fa-terminal"></i>
-            <i href="" class="fab fa-npm"></i>
-            <i href="" class="fab fa-node"></i>
-            <i href="" class="fab fa-github"></i>
-
+            <div id="skills-container">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-git"></i>
+            <i class="fas fa-terminal"></i>
+            <i class="fab fa-npm"></i>
+            <i class="fab fa-node"></i>
+            <i class="fab fa-github"></i>
+        </div>
         </section>
     </main>
-
-    <footer>
-        <section class="footer_contact-link social-cl">
-            <ul class="footer_social">
-                <li><a href="github"></a></li>
-                <li><a href="linkedin"></a></li>
-            </ul>
-        </section>
-    </footer>
-
+<footer>The arcana is the means by which all is revealed</footer>
 </body>
 
 </html>
