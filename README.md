@@ -1,2 +1,3 @@
 # portifolio-website
- project for codecademy
+ > project for codecademy
+[Open here](https://redesu.github.io/portifolio-website/)
